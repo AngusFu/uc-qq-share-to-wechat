@@ -169,7 +169,9 @@
      *     }
      */
     function mShare(config) {
+    
         this.config = config;
+
         this.init = function (type) {
             if (typeof type != 'undefined') this.config.type = type;
 

@@ -21,4 +21,19 @@
  *        , type  : type // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
  *     }
  */
- ```
+ 
+var mshare = new mShare({
+      title : 'Lorem ipsum dolor sit.'
+    , url   : 'http://m.ly.com'
+    , desc  : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat inventore minima voluptates.'
+    , img   : 'http://placehold.it/150x150'
+});
+
+$('button').click(function () {
+    
+    // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
+    mshare.init(+$(this).data('mshare'));
+    
+});
+
+```
