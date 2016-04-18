@@ -1,6 +1,6 @@
 {
   "name": "ucshare",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "触发手机UC、QQ浏览器的原生的微信分享功能",
   "main": "index.js",
   "scripts": {

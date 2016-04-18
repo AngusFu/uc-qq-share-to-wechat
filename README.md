@@ -2,6 +2,10 @@
 
 ## 触发手机UC、QQ浏览器的原生的微信分享功能
 
+[![npm](https://img.shields.io/npm/v/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare.svg)
+[![npm](https://img.shields.io/npm/dt/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare.svg)
+ 
+
 ## 说明
 
 * 此插件主要作用是在UC和QQ两个手机浏览器上面触发微信分享到朋友圈或发送给朋友的功能
