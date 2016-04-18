@@ -2,8 +2,8 @@
 
 ## 触发手机UC、QQ浏览器的原生的微信分享功能
 
-[![npm](https://img.shields.io/npm/v/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare.svg)
-[![npm](https://img.shields.io/npm/dt/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare.svg)
+[![npm](https://img.shields.io/npm/v/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare)
+[![npm](https://img.shields.io/npm/dt/ucshare.svg?style=flat-square)](https://www.npmjs.com/package/ucshare)
  
 
 ## 说明
