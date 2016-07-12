@@ -22,7 +22,7 @@ npm install --save ucshare
 
 ```javascript
 
-var mShare = require('mshare');
+var mShare = require('ucshare');
 
 /**
  * @param  {Object} config 配置对象  参数见示例
