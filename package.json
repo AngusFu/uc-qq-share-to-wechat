@@ -1,6 +1,6 @@
 {
   "name": "ucshare",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "触发手机UC、QQ浏览器的原生的微信分享功能",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AngusFu/mobileShare.git"
+    "url": "git+https://github.com/AngusFu/uc-qq-share-to-wechat.git"
   },
   "keywords": [
     "UC", "QQ", "移动浏览器", "微信分享", "朋友圈"
@@ -16,9 +16,9 @@
   "author": "angusfu1126@qq.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AngusFu/mobileShare/issues"
+    "url": "https://github.com/AngusFu/uc-qq-share-to-wechat/issues"
   },
-  "homepage": "https://github.com/AngusFu/mobileShare",
+  "homepage": "https://github.com/AngusFu/uc-qq-share-to-wechat",
   "dependencies": {},
   "devDependencies": {}
 }
