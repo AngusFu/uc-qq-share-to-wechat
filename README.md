@@ -18,7 +18,7 @@
 npm install --save ucshare
 ```
 
-## DEMO
+## [DEMO](http://angusfu.github.io/uc-qq-share-to-wechat/demo.html)
 
 ```javascript
 
