@@ -21,7 +21,6 @@ npm install --save ucshare
 ## [DEMO](http://angusfu.github.io/uc-qq-share-to-wechat/demo.html)
 
 ```javascript
-
 var mShare = require('ucshare');
 
 /**
@@ -46,5 +45,6 @@ $('button').click(function () {
     mshare.init(+$(this).data('mshare'));
 });
 
-
 ```
+
+![https://p3.ssl.qhimg.com/t010544df8028b631f6.png](https://p3.ssl.qhimg.com/t010544df8028b631f6.png)
