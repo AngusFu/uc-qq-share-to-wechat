@@ -1,7 +1,7 @@
 {
   "name": "ucshare",
-  "version": "1.0.3",
-  "description": "触发手机UC、QQ浏览器的原生的微信分享功能",
+  "version": "1.0.4",
+  "description": "触发手机 UC、QQ 浏览器的原生的微信分享功能",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
