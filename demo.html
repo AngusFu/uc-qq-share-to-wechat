@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Document</title>
+<style>
+    button {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+
+<body>
+<button data-mshare="0">点击弹出原生分享面板</button>
+<button data-mshare="1">点击触发朋友圈分享</button>
+<button data-mshare="2">点击触发发送给微信朋友</button>
+
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.min.js"></script>
+<script src="mshare.js"></script>
+<script>
+var mshare = new mShare({
+    title: 'Lorem ipsum dolor sit.',
+    url: 'http://m.ly.com',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat inventore minima voluptates.',
+    img: 'http://placehold.it/150x150'
+});
+$('button').click(function () {
+    // 1 ==> 朋友圈  2 ==> 朋友  0 ==> 直接弹出原生
+    mshare.init(+$(this).data('mshare'));
+});
+</script>
+</body>
+
+</html>
